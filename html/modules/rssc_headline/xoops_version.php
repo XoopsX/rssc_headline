@@ -1,5 +1,5 @@
 <?php
-// $Id: xoops_version.php,v 1.1 2011/12/29 14:41:31 ohwada Exp $
+// $Id: xoops_version.php,v 1.2 2011/12/29 20:06:57 ohwada Exp $
 
 // 2006-07-02 K.OHWADA
 // change _MI_HEADLINES_xx to _MI_RSSC_HEADLINE_xx
@@ -15,7 +15,7 @@
 //=========================================================
 
 $modversion['name'] = _MI_RSSC_HEADLINE_NAME;
-$modversion['version'] = 1.15;
+$modversion['version'] = 1.20;
 $modversion['description'] = _MI_RSSC_HEADLINE_DESC;
 $modversion['author'] = "K.OHWADA<br>( http://linux.ohwada.jp/ )";
 $modversion['credits'] = "";

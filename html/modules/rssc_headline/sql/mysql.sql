@@ -1,4 +1,8 @@
-# $Id: mysql.sql,v 1.1 2011/12/29 14:41:31 ohwada Exp $
+# $Id: mysql.sql,v 1.2 2011/12/29 20:06:57 ohwada Exp $
+
+# 2011-12-29 K.OHWADA
+# TYPE=MyISAM -> ENGINE=MyISAM
+# BLOB/TEXT can't have a default value
 
 # 2006-07-02 K.OHWADA
 # change xoopsheadline to rssc_headline
@@ -26,10 +30,10 @@ CREATE TABLE rssc_headline (
   headline_mainmax tinyint(2) unsigned NOT NULL default '10',
   headline_blockimg tinyint(1) unsigned NOT NULL default '0',
   headline_blockmax tinyint(2) unsigned NOT NULL default '10',
-  headline_xml text NOT NULL default '',
+  headline_xml text NOT NULL,
   headline_updated int(10) NOT NULL default'0',
   headline_rssc_lid int(10) unsigned NOT NULL default'0',
   PRIMARY KEY  (headline_id),
   KEY headline_rssc_lid (headline_rssc_lid)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
 

@@ -1,5 +1,8 @@
 <?php
-// $Id: headline.php,v 1.1 2011/12/29 14:41:32 ohwada Exp $
+// $Id: headline.php,v 1.2 2011/12/29 20:06:57 ohwada Exp $
+
+// 2011-12-29 K.OHWADA
+// PHP 5.3 : Assigning the return value of new by reference is now deprecated.
 
 // 2006-09-01 K.OHWADA
 // change create()
@@ -78,7 +81,7 @@ class rssc_headlineHeadlineHandler
 
     function &create()
     {
-        $ret =& new rssc_headline_Headline();
+        $ret = new rssc_headline_Headline();
         return $ret;
     }
 

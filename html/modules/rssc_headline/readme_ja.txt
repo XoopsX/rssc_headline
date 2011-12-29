@@ -1,11 +1,29 @@
-$Id: readme_ja.txt,v 1.1 2011/12/29 14:41:31 ohwada Exp $
+$Id: readme_ja.txt,v 1.2 2011/12/29 20:06:57 ohwada Exp $
+
+=================================================
+Version: 1.20
+Date:   2011-12-29
+Author: Kenichi OHWADA
+URL:    http://linux.ohwada.jp/
+Email:  webmaster@ohwada.jp
+=================================================
+
+このモジュールは、 XoopsHeadline モジュールと同等の機能です。
+
+● 変更内容
+1. PHP 5.3 対応
+PHP 5.3.x で推奨されない機能 を修正した
+http://www.php.net/manual/ja/migration53.deprecated.php
+(1) new の返り値を参照で代入すること
+
+2. MySQL 5.5 対応
+(1) TYPE=MyISAM -> ENGINE=MyISAM
+(2) BLOB/TEXT can't have a default value
+
 
 =================================================
 Version: 1.15
 Date:   2008-01-18
-Author: Kenichi OHWADA
-URL:    http://linux.ohwada.jp/
-Email:  webmaster@ohwada.jp
 =================================================
 
 このモジュールは、 XoopsHeadline モジュールと同等の機能です。
