@@ -15,7 +15,7 @@
 //=========================================================
 
 $modversion['name'] = _MI_RSSC_HEADLINE_NAME;
-$modversion['version'] = 1.20;
+$modversion['version'] = 1.21;
 $modversion['description'] = _MI_RSSC_HEADLINE_DESC;
 $modversion['author'] = "K.OHWADA<br>( http://linux.ohwada.jp/ )";
 $modversion['credits'] = "";
